@@ -1,88 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="24" started-at="2020-08-21T22:20:44Z" finished-at="2020-08-21T22:20:44Z">
+  <suite started-at="2022-08-26T01:16:03Z" name="Surefire suite" finished-at="2022-08-26T01:16:03Z" duration-ms="22">
     <groups>
       <group name="Auto">
-        <method signature="SegundoTest.Auto1()[pri:0, instance:SegundoTest@71be98f5]" name="Auto1" class="SegundoTest"/>
-        <method signature="SegundoTest.Sedan1()[pri:0, instance:SegundoTest@71be98f5]" name="Sedan1" class="SegundoTest"/>
+        <method signature="SegundoTest.Auto1()[pri:0, instance:SegundoTest@4313f5bc]" name="Auto1" class="SegundoTest"/>
+        <method signature="SegundoTest.Sedan1()[pri:0, instance:SegundoTest@4313f5bc]" name="Sedan1" class="SegundoTest"/>
       </group> <!-- Auto -->
       <group name="Scooter">
-        <method signature="SegundoTest.Scooter1()[pri:0, instance:SegundoTest@71be98f5]" name="Scooter1" class="SegundoTest"/>
-        <method signature="SegundoTest.Scooter2()[pri:0, instance:SegundoTest@71be98f5]" name="Scooter2" class="SegundoTest"/>
+        <method signature="SegundoTest.Scooter1()[pri:0, instance:SegundoTest@4313f5bc]" name="Scooter1" class="SegundoTest"/>
+        <method signature="SegundoTest.Scooter2()[pri:0, instance:SegundoTest@4313f5bc]" name="Scooter2" class="SegundoTest"/>
       </group> <!-- Scooter -->
       <group name="Sedan Auto">
-        <method signature="SegundoTest.Sedan1()[pri:0, instance:SegundoTest@71be98f5]" name="Sedan1" class="SegundoTest"/>
+        <method signature="SegundoTest.Sedan1()[pri:0, instance:SegundoTest@4313f5bc]" name="Sedan1" class="SegundoTest"/>
       </group> <!-- Sedan Auto -->
     </groups>
-    <test name="Command line test" duration-ms="24" started-at="2020-08-21T22:20:44Z" finished-at="2020-08-21T22:20:44Z">
+    <test started-at="2022-08-26T01:16:03Z" name="Surefire test" finished-at="2022-08-26T01:16:03Z" duration-ms="22">
       <class name="SumaTest">
-        <test-method status="PASS" signature="sumarFlotantes()[pri:0, instance:SumaTest@59a6e353]" name="sumarFlotantes" duration-ms="1" started-at="2020-08-21T22:20:44Z" finished-at="2020-08-21T22:20:44Z">
+        <test-method signature="sumarFlotantes()[pri:0, instance:SumaTest@75329a49]" started-at="2022-08-26T01:16:03Z" name="sumarFlotantes" finished-at="2022-08-26T01:16:03Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sumarFlotantes -->
-        <test-method status="PASS" signature="sumarLetras()[pri:0, instance:SumaTest@59a6e353]" name="sumarLetras" duration-ms="0" started-at="2020-08-21T22:20:44Z" finished-at="2020-08-21T22:20:44Z">
+        <test-method signature="sumarLetras()[pri:0, instance:SumaTest@75329a49]" started-at="2022-08-26T01:16:03Z" name="sumarLetras" finished-at="2022-08-26T01:16:03Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sumarLetras -->
-        <test-method status="PASS" signature="sumarNegativos()[pri:0, instance:SumaTest@59a6e353]" name="sumarNegativos" duration-ms="2" started-at="2020-08-21T22:20:44Z" finished-at="2020-08-21T22:20:44Z">
+        <test-method signature="sumarNegativos()[pri:0, instance:SumaTest@75329a49]" started-at="2022-08-26T01:16:03Z" name="sumarNegativos" finished-at="2022-08-26T01:16:03Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sumarNegativos -->
-        <test-method status="PASS" signature="sumarNulos()[pri:0, instance:SumaTest@59a6e353]" name="sumarNulos" duration-ms="1" started-at="2020-08-21T22:20:44Z" finished-at="2020-08-21T22:20:44Z">
+        <test-method signature="sumarNulos()[pri:0, instance:SumaTest@75329a49]" started-at="2022-08-26T01:16:03Z" name="sumarNulos" finished-at="2022-08-26T01:16:03Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sumarNulos -->
-        <test-method status="PASS" signature="sumarPositivos()[pri:0, instance:SumaTest@59a6e353]" name="sumarPositivos" duration-ms="0" started-at="2020-08-21T22:20:44Z" finished-at="2020-08-21T22:20:44Z">
+        <test-method signature="sumarPositivos()[pri:0, instance:SumaTest@75329a49]" started-at="2022-08-26T01:16:03Z" name="sumarPositivos" finished-at="2022-08-26T01:16:03Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sumarPositivos -->
       </class> <!-- SumaTest -->
       <class name="PrimerTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:PrimerTest@7a0ac6e3]" name="beforeMethod" is-config="true" duration-ms="10" started-at="2020-08-21T22:20:44Z" finished-at="2020-08-21T22:20:44Z">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:PrimerTest@161479c6]" started-at="2022-08-26T01:16:03Z" name="beforeMethod" finished-at="2022-08-26T01:16:03Z" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:SumaTest@59a6e353]" name="setUp" is-config="true" duration-ms="1" started-at="2020-08-21T22:20:44Z" finished-at="2020-08-21T22:20:44Z">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SumaTest@75329a49]" started-at="2022-08-26T01:16:03Z" name="setUp" finished-at="2022-08-26T01:16:03Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testCase1()[pri:0, instance:PrimerTest@7a0ac6e3]" name="testCase1" duration-ms="1" started-at="2020-08-21T22:20:44Z" finished-at="2020-08-21T22:20:44Z">
+        <test-method signature="testCase1()[pri:0, instance:PrimerTest@161479c6]" started-at="2022-08-26T01:16:03Z" name="testCase1" finished-at="2022-08-26T01:16:03Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase1 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:PrimerTest@7a0ac6e3]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-08-21T22:20:44Z" finished-at="2020-08-21T22:20:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="testCase2()[pri:0, instance:PrimerTest@7a0ac6e3]" name="testCase2" duration-ms="0" started-at="2020-08-21T22:20:44Z" finished-at="2020-08-21T22:20:44Z">
+        <test-method signature="testCase2()[pri:0, instance:PrimerTest@161479c6]" started-at="2022-08-26T01:16:03Z" name="testCase2" finished-at="2022-08-26T01:16:03Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase2 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:PrimerTest@7a0ac6e3]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-08-21T22:20:44Z" finished-at="2020-08-21T22:20:44Z">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:PrimerTest@161479c6]" started-at="2022-08-26T01:16:03Z" name="afterMethod" finished-at="2022-08-26T01:16:03Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:PrimerTest@161479c6]" started-at="2022-08-26T01:16:03Z" name="afterMethod" finished-at="2022-08-26T01:16:03Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- PrimerTest -->
       <class name="SegundoTest">
-        <test-method status="PASS" signature="Scooter1()[pri:0, instance:SegundoTest@71be98f5]" name="Scooter1" duration-ms="0" started-at="2020-08-21T22:20:44Z" finished-at="2020-08-21T22:20:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Scooter1 -->
-        <test-method status="PASS" signature="Auto1()[pri:0, instance:SegundoTest@71be98f5]" name="Auto1" duration-ms="0" started-at="2020-08-21T22:20:44Z" finished-at="2020-08-21T22:20:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Auto1 -->
-        <test-method status="PASS" signature="Scooter2()[pri:0, instance:SegundoTest@71be98f5]" name="Scooter2" duration-ms="0" started-at="2020-08-21T22:20:44Z" finished-at="2020-08-21T22:20:44Z">
+        <test-method signature="Scooter2()[pri:0, instance:SegundoTest@4313f5bc]" started-at="2022-08-26T01:16:03Z" name="Scooter2" finished-at="2022-08-26T01:16:03Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Scooter2 -->
-        <test-method status="PASS" signature="Sedan1()[pri:0, instance:SegundoTest@71be98f5]" name="Sedan1" duration-ms="0" started-at="2020-08-21T22:20:44Z" finished-at="2020-08-21T22:20:44Z">
+        <test-method signature="Scooter1()[pri:0, instance:SegundoTest@4313f5bc]" started-at="2022-08-26T01:16:03Z" name="Scooter1" finished-at="2022-08-26T01:16:03Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scooter1 -->
+        <test-method signature="Sedan1()[pri:0, instance:SegundoTest@4313f5bc]" started-at="2022-08-26T01:16:03Z" name="Sedan1" finished-at="2022-08-26T01:16:03Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Sedan1 -->
+        <test-method signature="Auto1()[pri:0, instance:SegundoTest@4313f5bc]" started-at="2022-08-26T01:16:03Z" name="Auto1" finished-at="2022-08-26T01:16:03Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Auto1 -->
       </class> <!-- SegundoTest -->
-    </test> <!-- Command line test -->
-  </suite> <!-- Command line suite -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
 </testng-results>

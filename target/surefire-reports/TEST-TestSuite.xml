@@ -1,78 +1,76 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="11" failures="0" name="TestSuite" time="0.002" errors="0" skipped="0">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.377" tests="11" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib"/>
-    <property name="java.vm.version" value="25.161-b12"/>
     <property name="gopherProxySet" value="false"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/fcontigliani/Trabajo/Universidad/UM/Ing. de Software Aplicada/2020/TestNG"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="path.separator" value=":"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="user.country" value="AR"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value="unknown"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/fcontigliani/Trabajo/Universidad/UM/Ing. de Software Aplicada/2020/TestNG"/>
-    <property name="java.runtime.version" value="1.8.0_161-b12"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/endorsed"/>
-    <property name="os.arch" value="x86_64"/>
-    <property name="java.io.tmpdir" value="/var/folders/lk/l1pjxj6n2wv198gdxqw18ypw0000gn/T/"/>
-    <property name="line.separator" value="
-"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.5.3/libexec/bin/m2.conf"/>
-    <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/Users/fcontigliani/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
-    <property name="maven.conf" value="/usr/local/Cellar/maven/3.5.3/libexec/conf"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.class.version" value="52.0"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.15.5"/>
-    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.5.3/libexec/lib/jansi-native"/>
-    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="user.home" value="/Users/fcontigliani"/>
-    <property name="user.timezone" value="America/Argentina/Mendoza"/>
-    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
-    <property name="java.specification.version" value="1.8"/>
-    <property name="file.encoding" value="US-ASCII"/>
-    <property name="user.name" value="fcontigliani"/>
-    <property name="java.class.path" value="/usr/local/Cellar/maven/3.5.3/libexec/boot/plexus-classworlds-2.5.2.jar"/>
-    <property name="java.vm.specification.version" value="1.8"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.language" value="es"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_161"/>
-    <property name="java.ext.dirs" value="/Users/fcontigliani/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
-    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/classes"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="/usr/local/Cellar/maven/3.5.3/libexec"/>
-    <property name="file.separator" value="/"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
-    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/fcontigliani/Trabajo/Universidad/UM/Ing. de Software Aplicada/2022/Test/TestNG/target/test-classes:/Users/fcontigliani/Trabajo/Universidad/UM/Ing. de Software Aplicada/2022/Test/TestNG/target/classes:/Users/fcontigliani/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/fcontigliani/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/fcontigliani/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value=""/>
+    <property name="suiteXmlFile" value="testng.xml"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="419"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.11.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/fcontigliani/Trabajo/Universidad/UM/Ing. de Software Aplicada/2022/Test/TestNG/target/surefire/surefirebooter13579463503747717844.jar /Users/fcontigliani/Trabajo/Universidad/UM/Ing. de Software Aplicada/2022/Test/TestNG/target/surefire 2022-08-25T22-15-56_757-jvmRun1 surefire5792056640629881084tmp surefire_04260234750772442540tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/fcontigliani/Trabajo/Universidad/UM/Ing. de Software Aplicada/2022/Test/TestNG/target/test-classes:/Users/fcontigliani/Trabajo/Universidad/UM/Ing. de Software Aplicada/2022/Test/TestNG/target/classes:/Users/fcontigliani/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/fcontigliani/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/fcontigliani/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/fcontigliani"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.11.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/fcontigliani/Trabajo/Universidad/UM/Ing. de Software Aplicada/2022/Test/TestNG"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/fcontigliani/Trabajo/Universidad/UM/Ing. de Software Aplicada/2022/Test/TestNG/target/surefire/surefirebooter13579463503747717844.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.11+9-LTS-194"/>
+    <property name="user.name" value="fcontigliani"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="US-ASCII"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/Users/fcontigliani/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/lk/l1pjxj6n2wv198gdxqw18ypw0000gn/T/"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="user.dir" value="/Users/fcontigliani/Trabajo/Universidad/UM/Ing. de Software Aplicada/2022/Test/TestNG"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/fcontigliani/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.11+9-LTS-194"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="SumaTest" name="sumarFlotantes" time="0.002"/>
-  <testcase classname="SumaTest" name="sumarLetras" time="0"/>
-  <testcase classname="SumaTest" name="sumarNegativos" time="0"/>
-  <testcase classname="SumaTest" name="sumarNulos" time="0"/>
-  <testcase classname="SumaTest" name="sumarPositivos" time="0"/>
-  <testcase classname="PrimerTest" name="testCase1" time="0"/>
-  <testcase classname="PrimerTest" name="testCase2" time="0"/>
-  <testcase classname="SegundoTest" name="Auto1" time="0"/>
-  <testcase classname="SegundoTest" name="Scooter1" time="0"/>
-  <testcase classname="SegundoTest" name="Scooter2" time="0"/>
-  <testcase classname="SegundoTest" name="Sedan1" time="0"/>
+  <testcase name="sumarFlotantes" classname="SumaTest" time="0.002"/>
+  <testcase name="sumarLetras" classname="SumaTest" time="0"/>
+  <testcase name="sumarNegativos" classname="SumaTest" time="0.002"/>
+  <testcase name="sumarNulos" classname="SumaTest" time="0"/>
+  <testcase name="sumarPositivos" classname="SumaTest" time="0"/>
+  <testcase name="testCase1" classname="PrimerTest" time="0"/>
+  <testcase name="testCase2" classname="PrimerTest" time="0"/>
+  <testcase name="Auto1" classname="SegundoTest" time="0"/>
+  <testcase name="Scooter1" classname="SegundoTest" time="0"/>
+  <testcase name="Scooter2" classname="SegundoTest" time="0"/>
+  <testcase name="Sedan1" classname="SegundoTest" time="0"/>
 </testsuite>
