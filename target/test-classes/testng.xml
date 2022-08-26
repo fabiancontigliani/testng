@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+    <test name="Practice Grouping">
+        <groups>
+            <run>
+                <include name="Auto" />
+                <include name="Scooter"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="SegundoTest" />
+        </classes>
+    </test>
+</suite>
